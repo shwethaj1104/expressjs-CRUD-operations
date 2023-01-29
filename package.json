@@ -19,6 +19,7 @@
   "homepage": "https://github.com/shwethaj1104/expressjs-CRUD-operations#readme",
   "dependencies": {
     "express": "^4.18.2",
+    "express-handlebars": "^6.0.7",
     "moment": "^2.29.4",
     "uuid": "^9.0.0"
   },
