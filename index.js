@@ -8,7 +8,7 @@ const app = express();
 
 //Init middleware
 app.use(logger)
-//using routes for cleaning up and reusing the routes
+//using routes for cleaning up and reusing the routes//api routes
 app.use('/api/members',require('./routes/api/members'))
 
 //using middleware called "use"--> to set static folder-->we won't use this in our apps since it is static
