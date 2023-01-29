@@ -8,6 +8,11 @@ const app = express();
 
 //Init middleware
 app.use(logger)
+
+//Body parser middleware
+app.use(express.json());
+app.use(express.urlencoded({extended:false}));
+
 //using routes for cleaning up and reusing the routes//api routes
 app.use('/api/members',require('./routes/api/members'))
 
